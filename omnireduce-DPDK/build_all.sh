@@ -5,7 +5,7 @@ set -e
 set -x
 
 CWD="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-DPDK_ARGS='-fPIC '
+DPDK_ARGS=''
 DAIET_ARGS=''
 EXP_ARGS=''
 PS_ARGS=''

@@ -32,7 +32,7 @@ dependencies:
   - pandas # ncf
   - pip=20.0
   - pip:
-    - git+git://github.com/NVIDIA/dllogger#egg=dllogger # ncf
+    - git+https://github.com/NVIDIA/dllogger#egg=dllogger # ncf
       #- gluoncv
       #- mxnet-cu101mkl==1.6.0
     - opt_einsum # WideAndDeep
